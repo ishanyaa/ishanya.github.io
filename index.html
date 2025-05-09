@@ -1,57 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ishanya | Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        /* Container for header to prevent text overlap */
-        header {
-            padding-right: 100px; /* Add padding to the right so the text does not overlap */
-        }
+  <meta charset="UTF-8">
+  <title>Ishanya - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
 
-        /* Profile photo settings */
-        .profile-photo {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            width: 300px;  /* Set width to control size */
-            height: 300px; /* Set height to control size */
-            border-radius: 50%; /* Makes the image circular */
-            object-fit: cover; /* Ensures the image fits inside the circle without distortion */
-        }
-    </style>
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      margin-bottom: 20px;
+    }
+
+    nav a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #0077cc;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #222;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    img.profile {
+      max-width: 200px;
+      border-radius: 50%;
+      margin-top: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects & Research</a>
+    <a href="primers.html">Primers</a>
+    <a href="travels.html">Travels</a>
+    <a href="about.html">About</a>
+    <a href="hobbies/images.html">Hobbies</a>
+  </nav>
 
-    <!-- Main content -->
-    <header>
-        <h1>Welcome to My Personal Website!</h1>
-        <p>Hi, I'm Ishanya. I love learning and sharing knowledge.</p>
-    </header>
+  <h1>Hello, I'm Ishanya!</h1>
+  <img src="images/ishanya.jpg" alt="Ishanya's photo" class="profile">
 
-    <!-- Profile photo (with class applied to make it circular and positioned) -->
-    <img src="images/ishanya.jpg" alt="Ishanya's Profile Photo" class="profile-photo">
+  <div class="section">
+    <h2>Welcome!</h2>
+    <p>I'm a final-year undergrad student from the Department of Electrical Engineering and Computer Science at the Indian Institute of Science Education and Research, Bhopal.</p>
+    <p>What keeps me up at night (besides coffee) is <strong>privacy-preserving machine learning</strong> — because why not let machines learn *without being nosy*?</p>
+  </div>
 
-    <!-- Short intro -->
-    <p>Welcome to my personal website! </p>
-        <p>I'm passionate about learning, building, and exploring new ideas. </p>
+  <div class="section">
+    <h2>Current Focus</h2>
+    <p>Right now, I'm diving into <strong>privacy-preserving ML</strong>, trying to teach machines to mind their own business — literally.</p>
+  </div>
 
-    <!-- Navigation bar -->
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="education.html">Education</a> |
-        <a href="work.html">Work Experience</a> |
-        <a href="blog.html">Blog</a> |
-        <a href="resource.html">Resources</a> |
-        <a href="misc.html">Misc</a>
-    </nav>
-
-    <!-- Optional: Footer -->
-    <footer>
-        <p>&copy; 2023 Ishanya. All rights reserved.</p>
-    </footer>
-
+  <footer>
+    © 2025 Ishanya · Powered by curiosity, HTML, and a cup of strong filter coffee :P
+  </footer>
 </body>
 </html>
